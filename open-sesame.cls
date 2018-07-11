@@ -674,7 +674,7 @@
 	\renewcommand{\interests}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
-				\node [right] at (0,\i+0.25) {\x};
+				\node [right] at (0,\i+0.17) {\x};
 				\draw[fill=gray,gray] (6,\i) rectangle (14,\i+0.4);
 				\draw[fill=white,awesome-emerald] (6,\i) rectangle (\y+8,\i+0.4);
 			}
