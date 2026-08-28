@@ -37,14 +37,14 @@
   sidebar: [
     = Edward Fitz Abucay
 
-    #medium("Blockchain and Full-Stack Engineer") \
-    #small("Rust . Solana . Sei . DeFi . Distributed Systems")
+    #medium("AI Platform and Solutions Engineer") \
+    #small("Generative AI . Agents . RAG . Model Serving . Data Systems")
 
     #v(5pt)
 
-    Web3 backend engineer with 15+ years building secure, high-throughput systems across blockchain, fintech, gaming, healthcare, and SaaS.
+    AI solutions engineer with 15+ years turning complex product requirements into production platforms across fintech, Web3, gaming, healthcare, and SaaS.
 
-    Strong in Rust, distributed systems, cloud operations, and turning ambiguous product goals into reliable delivery.
+    Build agentic, RAG, embedding, and multimodal solutions using Python, LangChain, vector databases, and scalable data systems.
 
     #v(5pt)
 
@@ -60,22 +60,22 @@
 
     #ats-section("Core Technologies")[
       #tags(
-        "Rust",
-        "Go",
-        "TypeScript",
-        "Node.js",
-        "Solidity",
-        "Sei",
-        "AWS",
-        "GCP",
+        "Python",
+        "LangChain",
+        "RAG",
+        "AI Agents",
+        "Embeddings",
+        "Multimodal AI",
+        "vLLM",
+        "Ollama",
+        "Milvus",
+        "Weaviate",
+        "Apache Spark",
+        "Apache Flink",
         "Kubernetes",
         "Docker",
-        "Terraform",
-        "PostgreSQL",
-        "MongoDB",
-        "Redis",
-        "Solana RPC",
-        "Ethereum"
+        "AWS",
+        "GCP"
       )
     ]
 
@@ -91,28 +91,31 @@
   ]
 )[
   #ats-section("Professional Summary")[
-    - 15+ years across startups, scale-ups, and international remote teams.
-    - Delivered Solana indexing, Sei trading platforms, agentic trading systems, enterprise APIs, and high-concurrency platforms.
-    - Hands-on leader for architecture, cloud operations, mentoring, and production execution.
-    - Strong focus on reliability, security posture, and maintainability.
+    - Prototype and productionize Generative AI solutions spanning agents, RAG, embeddings, multimodal processing, and model serving.
+    - Integrate models, vector retrieval, tools, and application workflows using LangChain, vLLM, Ollama, Milvus, and Weaviate.
+    - Build scalable Python data pipelines with Spark and Flink for fintech and trading applications.
+    - English- and Tagalog-speaking technical leader experienced with ambiguous requirements and cross-functional delivery.
   ]
 
   #ats-section("Professional Experience")[
     === Web3 Engineer (DeFi) / AI Solutions Engineer
     Freelance / MACH1 (Remote) - 2025-Present
 
-    Build Monaco Protocol trading and agentic platforms on Sei, alongside AI-powered market analysis and multi-chain DeFi automation.
+    Translate trading requirements into production AI, data, and automated execution solutions from rapid prototype through delivery.
 
-    - Built an exchange-style trading platform that reached 200 initial testnet users while maintaining fast, stable trade execution.
-    - Built an agentic platform supporting up to five automated strategies per user through LLM orchestration, strategy management, and trade execution.
-    - Developed RAG, embedding, multimodal, and ML-assisted market-matching workflows using Python, Spark, Flink, Milvus, and Weaviate.
+    - Built an agentic trading platform supporting up to five automated strategies per user through LLM orchestration, strategy management, and execution; its exchange reached 200 initial testnet users.
+    - Built RAG, embedding, and multimodal workflows with Python, LangChain, Milvus, and Weaviate, using vLLM and Ollama for model serving and local inference.
+    - Used Spark and Flink pipelines plus ML-based tagging to match equivalent Polymarket and Kalshi markets and live sports events across betting platforms, surfacing arbitrage opportunities.
 
-    #tags("Sei", "Monaco Protocol", "Python", "RAG", "AI Agents", "Spark", "Flink", "Milvus", "Weaviate")
+    #tags("Python", "LangChain", "vLLM", "Ollama", "RAG", "AI Agents", "Spark", "Flink", "Milvus", "Weaviate")
 
-    #v(10pt)
+  ]
+]
 
+#resume-page()[
+  #ats-section("Professional Experience (Continued)")[
     === Full-Stack Engineer / Rust Engineer
-    Job Sesame (Remote) - 2023-2025
+    Job Sesame (Remote) - 2023-March 2025
 
     Built a Rust-backed Telegram job discovery and application platform.
 
@@ -121,11 +124,9 @@
     - Improved production reliability with observability and automated testing.
 
     #tags("Rust", "Telegram", "APIs", "Job Platform", "Automation", "Observability")
-  ]
-]
 
-#resume-page()[
-  #ats-section("Professional Experience (Continued)")[
+    #v(10pt)
+
     === Lead Solana Blockchain Engineer
     NFTPort (Tallinn, Remote) - 2022-2023
 
@@ -163,28 +164,16 @@
 
     #tags("Go", "Node.js", "AWS", "Ethereum", "Solidity", "React")
 
-    #v(10pt)
-
-    === Earlier Leadership + Senior IC Roles
-    Identity Hash, Talkpush, The Co-Foundry, Toucan, Blueprint Games, PJ Holdings, Aruze Gaming America, Teleperformance PH - 2010-2018
-
-    Progressed through startup, product, gaming, and data roles across backend, mobile, QA, and infrastructure work.
-
-    - Co-founded and led technical direction for an Ethereum-connected startup.
-    - Delivered Rails, iOS, ML, gaming platform, QA automation, and enterprise support work.
-    - Built depth across Ruby, Swift, Python, C++, Selenium, Linux, and production operations.
-
-    #tags("Ruby on Rails", "Swift", "Python", "C++", "QA Automation", "Leadership")
   ]
 ]
 
 #resume-page()[
   #ats-section("Technical Skills")[
-    === Programming Languages
+    === AI, Machine Learning, and Data
 
     #v(5pt)
 
-    #tags("Rust", "Go", "TypeScript", "JavaScript", "Solidity", "C#", "Ruby", "Swift", "Python", "C++")
+    #tags("Python", "LangChain", "RAG", "Prompt Engineering", "AI Agents", "Embeddings", "Multimodal AI", "vLLM", "Ollama", "Milvus", "Weaviate", "Apache Spark", "Apache Flink")
 
     === Cloud, Infrastructure, and Data
 
@@ -205,17 +194,19 @@
       "REST"
     )
 
-    === Blockchain and Web3
+    === Engineering, Blockchain, and Web3
 
     #v(5pt)
 
     #tags(
+      "Rust",
+      "Go",
+      "TypeScript",
+      "REST APIs",
+      "Distributed Systems",
       "Solana RPC",
       "Ethereum",
-      "Arbitrum",
-      "Monad",
-      "Hyperliquid",
-      "Eclipse"
+      "Sei"
     )
 
     === Spoken Languages
@@ -223,6 +214,12 @@
     #v(5pt)
 
     English, Tagalog, Basic Mandarin
+  ]
+
+  #ats-section("Earlier Experience")[
+    Identity Hash, Talkpush, The Co-Foundry, Toucan, Blueprint Games, PJ Holdings, Aruze Gaming America, and Teleperformance PH - 2010-2018
+
+    Leadership and senior IC roles spanning startups, ML, gaming, backend, mobile, QA automation, infrastructure, and enterprise support.
   ]
 
   #ats-section("Selected Certifications and Training")[

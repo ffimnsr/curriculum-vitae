@@ -23,27 +23,34 @@ jobs:
       - name: Set up Typst
         uses: typst-community/setup-typst@v5
         with:
-          cache-dependency-path: typst/main.typ
+          cache-dependency-path: |
+            typst/main.typ
+            typst/ai-focused.typ
 
-      - name: Build PDF
+      - name: Build PDFs
         run: |
           mkdir -p dist
           typst compile \
             --font-path typst/fonts \
             typst/main.typ \
             "dist/curriculum-vitae-${GITHUB_REF_NAME}.pdf"
+          typst compile \
+            --font-path typst/fonts \
+            typst/ai-focused.typ \
+            "dist/curriculum-vitae-ai-focused-${GITHUB_REF_NAME}.pdf"
 
       - name: Create or update release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag="${GITHUB_REF_NAME}"
-          asset="dist/curriculum-vitae-${tag}.pdf"
+          normal_asset="dist/curriculum-vitae-${tag}.pdf"
+          ai_asset="dist/curriculum-vitae-ai-focused-${tag}.pdf"
 
           if gh release view "$tag" >/dev/null 2>&1; then
-            gh release upload "$tag" "$asset" --clobber
+            gh release upload "$tag" "$normal_asset" "$ai_asset" --clobber
           else
-            gh release create "$tag" "$asset" \
+            gh release create "$tag" "$normal_asset" "$ai_asset" \
               --title "$tag" \
-              --notes "Typst PDF build for ${tag}."
+              --notes "Normal and AI-focused Typst CV builds for ${tag}."
           fi
